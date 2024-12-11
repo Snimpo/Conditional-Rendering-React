@@ -17,5 +17,5 @@ createRoot(document.getElementById('root')).render(
 //Don't show it if userIsRegistered is true.
 
 
-//Peronal notes: my approach would be creating 2 components one called Login and another one calles Register.
+//Personal notes: my approach would be creating 2 components one called Login and another one calles Register.
 //once that is done, I'd setup a ternary operator to render the proper component based on the value of userIsRegistered.
