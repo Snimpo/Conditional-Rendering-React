@@ -1,11 +1,12 @@
 import React from "react";
-var isLoggedIn = true;
 
-function Form() {
+
+
+function Form(prop) {
   return (
     <>
       <div>
-        {isLoggedIn ? (
+        {prop.UserIsLoggedIn ? (
           <form className="form">
             <input type="text" placeholder="Username" />
             <input type="password" placeholder="Password" />
